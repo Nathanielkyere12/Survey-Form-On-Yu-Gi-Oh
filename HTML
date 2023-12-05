@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<h1 id="title">What Yu-Gi-Oh Deck do you main?</h1>
+<p id="description">Just quickly if you may can you share your main deck of choice in the Master Duel format of Yu-Gi-Oh</p>
+
+<form id="survey-form">
+   <label id="name-label">Please Provide your name</label>
+  <input id="name" id="name-label" required  placeholder="Adam Smith" type="text"/>
+  <label id="email-label">Please Provide your email</label>
+  <input id="email" type="email"  required placeholder="...@....com"/>
+  <label id="number-label">Please Provide your number</label>
+  <input id="number" type="number" min="0" max="11" required placeholder="07974782747/>
+
+<br>
+
+  <label for="Format">Please choose your Format:</label>
+  <select id="dropdown" name="Format">
+  <option value="TCG">TCG</option>
+    <option type="radio" value="OCG">OCG</option>
+    <option value="Master Duel">Master Duel</option>
+    <option value="Duel links">Duel links</option>
+  </select>
+<br>
+  <label>Do you play a anime deck?</label>
+  <input type="radio" name="anime" value="yes" />Yes
+  <input type="radio" name="anime" value="no" />No
+<br>
+  <label>Are you satisfied with the current state of Yu-Gi-Oh</label>
+  <input type="checkbox" value="No"/>No
+  <input type="checkbox" value="Y"/>Yes
+
+<br>
+  <textarea placeholder="Please enter your main decklist here"></textarea>
+  <input type="submit" id="submit"/>
+</form>
